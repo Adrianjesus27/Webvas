@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Visual Air Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  
+  <!-- seccion inicio -->
+  
+  <section id="inicio">
+    <div class="contenido">
+      <header>
+        <div class="contenido-header">
+          <h1>VISUAL AIR STUDIO</h1>
+          <nav id="nav" class="">
+           <ul id="links">
+           <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
+            <li><a href="#servicios" onclick="seleccionar(this)">Servicios</a></li>
+             <li><a href="#habilidad" onclick="seleccionar(this)">habilidades</a></li>
+              <li><a href="#portfolio" onclick="seleccionar(this)">Portafolio</a></li>
+               <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
+               </ul> 
+          </nav>
+          <!-- icono menú reponsive -->
+          
+            <div id="icono-nav"onclick="responsiveMenu()">
+              <i class="fa-sharp fa-solid fa-bars"></i>
+            </div>
+            <!-- iconos redes sociales -->
+            <div class="redes">
+             
+              <a href="https://www.behance.net/adrinpalomo1"><i class="fa-brands fa-behance"></i></a>
+             
+              <a href="https://www.tiktok.com/@visual_ast27?_t=8cBRSyTpAVZ&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+             
+              <a href="https://instagram.com/visual_ast?igshid=ZGUzMzM3NWJiOQ=="><i class="fa-brands fa-instagram"></i></a>
+              
+              <a href="https://www.facebook.com/profile.php?id=100085368096277"><i class="fa-brands fa-facebook"></i></a>
+              
+            </div>
+            </div>
+      </header>
+      <div class="presentacion">
+        <p class="bienvenida">Bienvenidos</p>
+        <h2>Somos<span> Visusl Air Studio</span>, Agencia de Diseño Gráfico</h2>
+        <p class="descripcion">✒️Diseñamos una Imagen de Marca Impactante y Memorable que Conecta con los Valores y la Esencia de su Empresa.📈</p>
+        <a href="https://wa.me/message/X75JASM5K2BPB1"><i class="fa-brands fa-whatsapp"></i> Agenda</a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- seccion servicios -->
+  
+  <section id="servicios">
+    <h3 class="titulo-seccion">Nuestros Servicios</h3>
+    <div class="fila">
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-compass-drafting"></i></span>
+        <h4>Diseño de Identidad Visual</h4>
+        <hr>
+        <ul class="servicios-tag">
+         <li>Logo</li> 
+         <li>Tipografía</li>
+         <li>Mockup</li>
+        </ul>
+        <p>Es la Representación Gráfica de una marca,sus Objetivos y valores.</p>
+      </div>
+       <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-code"></i></span>
+        <h4>Diseño Web</h4>
+        <hr>
+        <ul class="servicios-tag">
+         <li>Web</li> 
+         <li>SEO</li>
+         <li>Interfaz Intuitiva</li>
+        </ul>
+        <p>Es un Área enfocada en el desarrollo de interfaces digitales en Internet.</p>
+      </div>
+       <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-layer-group"></i></span>
+        <h4>Diseño 3d</h4>
+        <hr>
+        <ul class="servicios-tag">
+         <li>Objetos</li> 
+         <li>Personajes</li>
+         <li>Renders</li>
+        </ul>
+        <p>Es el proceso de crear personajes y objetos en un espacio 3D.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- seccion habilidades -->
+  <section class="contenedor-skills" id="habilidad">
+    <h3>Habilidades</h3>
+      <div class="skill">
+      <div class="info">
+        <p><span class="lista"></span>Html & Css</p>
+        <span class="porcentaje">95%</span>
+      </div>
+      <div class="barra">
+      <div id="html"></div>
+      </div>
+    </div>
+    
+    <div class="skill">
+      <div class="info">
+        <p><span class="lista"></span>Javascript</p>
+        <span class="porcentaje">89%</span>
+      </div>
+      <div class="barra">
+      <div id="js"></div>
+      </div>
+    </div>
+    
+    <div class="skill">
+      <div class="info">
+        <p><span class="lista"></span>Photoshop</p>
+        <span class="porcentaje">90%</span>
+      </div>
+      <div class="barra">
+      <div id="ps"></div>
+      </div>
+    </div>
+    
+    <div class="skill">
+      <div class="info">
+        <p><span class="lista"></span>Illustrator</p>
+        <span class="porcentaje">91%</span>
+      </div>
+      <div class="barra">
+      <div id="ia"></div>
+      </div>
+    </div>
+    
+    <div class="skill">
+      <div class="info">
+        <p><span class="lista"></span>Blender</p>
+        <span class="porcentaje">85%</span>
+      </div>
+      <div class="barra">
+      <div id="bd"></div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- seccion portafolio -->
+  <section id="portfolio">
+    <h3 class="titulo-seccion">Nuestros Proyectos</h3>
+    <div class="fila">
+      <div class="proyecto">
+      <div class="overlay"></div>
+      <img src="img/logo4.jpg">
+      <div class="info">
+        <h4><span class="marca">Marca:</span> Amarantha Ruíz</h4>
+        <p>Diseño de Identidad Visual</p>
+      </div>
+      </div>
+      <div class="proyecto">
+      <div class="overlay"></div>
+      <img src="img/logo2.jpg">
+      <div class="info">
+        <h4><span class="marca">Marca:</span> Amarantha Ruíz</h4>
+        <p>Diseño de Identidad Visual</p>
+      </div>
+      </div>
+       <div class="proyecto">
+      <div class="overlay"></div>
+      <img src="img/logo3.jpg">
+      <div class="info">
+        <h4><span class="marca">Marca:</span> Amaranta Ruíz</h4>
+        <p>Diseño de Identidad Visual</p>
+      </div>
+      </div>
+    </div>
+      <div class="fila">
+      <div class="proyecto">
+      <div class="overlay"></div>
+      <img src="img/pw1.jpg">
+      <div class="info">
+        <h4><span class="marca">Marca:</span> Nova Sistem</h4>
+        <p>Diseño Web</p>
+      </div>
+      </div>
+       <div class="proyecto">
+      <div class="overlay"></div>
+      <img src="img/pw2.jpg">
+      <div class="info">
+        <h4><span class="marca">Marca:</span> Desing FF</h4>
+        <p>Diseño web</p>
+      </div>
+      </div>
+       <div class="proyecto">
+      <div class="overlay"></div>
+      <img src="img/pw3.jpg">
+      <div class="info">
+        <h4><span class="marca">Marca:</span> Only</h4>
+        <p>Diseño web</p>
+      </div>
+      </div>
+    </div>
+      <div class="fila">
+      <div class="proyecto">
+      <div class="overlay"></div>
+      <img src="img/render1.jpg">
+      <div class="info">
+        <h4><span class="marca">Marca:</span> Lobby Suite</h4>
+        <p>Diseño 3D</p>
+      </div>
+      </div>
+       <div class="proyecto">
+      <div class="overlay"></div>
+      <img src="img/render2.jpg">
+      <div class="info">
+        <h4><span class="marca">Marca:</span> Infinity Time</h4>
+        <p>Diseño 3D</p>
+      </div>
+      </div>
+       <div class="proyecto">
+      <div class="overlay"></div>
+      <img src="img/render3.jpg">
+      <div class="info">
+        <h4><span class="marca">Marca:</span> Future Smart</h4>
+        <p>Diseño 3D</p>
+      </div>
+      </div>
+    </div>
+    
+  </section>
+  
+  <!-- seccion contacto -->
+  
+  <section id="contacto">
+    <h3 class="titulo-seccion">Contáctanos</h3>
+     <div class="info">
+       <div class="ub">
+         
+         <h4>Empresa</h4>
+         <p>Visual Air Studio</p>
+         
+           <h4>E-mail</h4>
+         <p>infovas27@gmail.com</p>
+         
+           <h4>Teléfono</h4>
+         <p>+58 0414 860 65 38</p>
+         </div>
+         
+         <div class="red">
+           <h4><i class="fa-brands fa-instagram"></i>   Instagram</h4>
+           <p>@visual_ast</p>
+         
+        
+            <h4><i class="fa-brands fa-facebook"></i>   Facebook</h4>
+           <p>Visual_Air_Studio</p>
+           
+            <h4><i class="fa-brands fa-tiktok"></i>   Tiktok</h4>
+           <p>@visual_ast27</p>
+         </div>
+         
+     </div>
+      
+    </div>
+  
+ 
+  </section>
+  
+  <!-- seccion footer -->
+  
+  <footer>
+    <p>Visual Air Studio - Todos los derechos©️ reservados - 2023</p>
+    <div class="redes">
+             
+              <a href="https://www.behance.net/adrinpalomo1"><i class="fa-brands fa-behance"></i></a>
+              
+              <a href="https://www.tiktok.com/@visual_ast27?_t=8cBRSyTpAVZ&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+             
+              <a href="https://instagram.com/visual_ast?igshid=ZGUzMzM3NWJiOQ=="><i class="fa-brands fa-instagram"></i></a>
+             
+              <a href="https://www.facebook.com/profile.php?id=100085368096277"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+  </footer>
+  
+  <script src="doc.js"></script>
+  
+  
+</body>
+</html>
